@@ -1,0 +1,15 @@
+header{
+    background-image: url("../images/bg/bg_navbar.svg");
+    background-position: center top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 0.66;
+    width: 100%;
+}
+
+p{
+    font-family: 'alata';
+    src: url("../../assets/fonts/Alata-Regular.ttf");
+    font-size: 20px;
+    color: white;
+}
