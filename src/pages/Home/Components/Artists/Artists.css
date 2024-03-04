@@ -1,0 +1,23 @@
+div>p {
+    padding-bottom: 2rem;
+    width: 100%;
+    text-align: right;
+    color: white;
+}
+
+.innerArtistContainer{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .innerArtistContainer{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 768px) {
+    .innerArtistContainers{
+        flex-direction: row;
+    }
+}
+

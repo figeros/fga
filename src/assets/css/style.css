@@ -1,5 +1,13 @@
 
-.background{
+.outerContainer{
     background-color: #07332E;
-    height: 100vh;
+    height: auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.innerContainer{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    
 }

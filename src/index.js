@@ -11,6 +11,9 @@ import { bsc } from "wagmi/chains";
 import { publicProvider } from 'wagmi/providers/public';
 import "./i18n";
 
+import "./assets/fonts/Alata-Regular.ttf";
+import "./assets/fonts/Inter-VariableFont_slnt,wght.ttf";
+
 
 // Configure chains & providers with the Public provider.
 const { chains, provider, webSocketProvider } = configureChains(

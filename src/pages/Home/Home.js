@@ -3,6 +3,8 @@ import { Image, Row, Col, Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 
+import Artists from "./Components/Artists/Artists";
+
 const Home = () => {
   const { t } = useTranslation();
   return (
@@ -13,8 +15,9 @@ const Home = () => {
         <meta name="keywords" content="" />
       </Helmet>
 
-      <Container fluid>
+      <Container fluid className="homePageComponent">
         <p>home</p>
+        <Artists/>
       </Container>
     </>
   );

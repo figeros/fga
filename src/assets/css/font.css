@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Inter", sans-serif;
+    src: local("Inter"),
+    url(../fonts/Inter-VariableFont_slnt,wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Alata", sans-serif;
+    src: local("Alata"),
+    url(../fonts/Alata-Regular.ttf) format("truetype");
+}

@@ -12,9 +12,9 @@ const Master = () => {
 
   return (
     <>
-      <Container fluid className="background">
-        <Container>
-          <Header/>
+      <Container fluid className="outerContainer">
+      <Header/>
+        <Container className="innerContainer">
           {/* Content Area With Outlet */}
           <Outlet />
 
