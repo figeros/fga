@@ -26,7 +26,7 @@ const Artist = props =>{
                 <p>RESSAM</p>
                 <p>1977</p>
                 <p>BURSA</p>
-                <p>SÜRREAL RESİMLER ÜZERİNDE ÇALIŞIYOR</p>
+                <p>SÜRREAL ÇİZİMLER ÜZERİNE ÇALIŞIYOR</p>
             </div>
             <div className="artistImg">
                 <img src={require("../../../../assets/images/artistImage.svg").default}/>

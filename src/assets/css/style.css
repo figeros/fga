@@ -9,5 +9,11 @@
 .innerContainer{
     padding-right: 0 !important;
     padding-left: 0 !important;
+}
+
+@media screen and (max-width: 1440px) {
+    .innerContainer{
+        max-width: 78% !important;
+    }
     
 }

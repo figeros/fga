@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 
 import Artists from "./Components/Artists/Artists";
+import Contact from "./Components/Contact/Contact";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -18,6 +19,7 @@ const Home = () => {
       <Container fluid className="homePageComponent">
         <p>home</p>
         <Artists/>
+        <Contact/>
       </Container>
     </>
   );

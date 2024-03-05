@@ -1,0 +1,59 @@
+
+.contact__OuterContainer{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: auto;
+}
+
+.contact__InfoContainer{
+    display: flex;
+    flex-direction: column;
+}
+.contact__InfoContainer > p{
+    text-align: left !important;
+    padding: 0.7rem 0 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .contact__OuterContainer{
+        flex-direction: row;
+    }
+
+    .contact__MapContainer{
+        width: 50%;
+    }
+
+    .contact__InfoContainer{
+        min-width: 40%;
+        margin-left: auto;
+    }
+
+}
+@media screen and (max-width: 767px) {
+
+    .contact__OuterContainer {
+        flex-direction: column-reverse;
+    }
+
+    .contact__MapContainer .contact__InfoContainer{
+        width: 100%;
+    }
+
+
+}
+
+.contact__Message{
+    width: 100%;
+    background-color: #d9d9d9;
+    border-radius: 1rem;
+    flex-grow: 1;
+
+    min-height: 100px;
+}
+
+.mapPlaceholderImg{
+    width: 100%;
+
+}

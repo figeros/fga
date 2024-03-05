@@ -8,7 +8,7 @@ const Artists = props =>{
 
     return(
         <div className="artistsContainer">
-            <p>SANATÇILAR</p>
+            <p className='artistsTitle'>SANATÇILAR</p>
             <div className="innerArtistContainer">
                 <Artist />
                 <Artist />
