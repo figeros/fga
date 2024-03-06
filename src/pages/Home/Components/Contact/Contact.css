@@ -1,6 +1,5 @@
 
 .contact__OuterContainer{
-    margin-top: 10vh;
     display: flex;
     justify-content: space-between;
     flex-grow: auto;
@@ -15,7 +14,7 @@
     padding: 0.7rem 0 0.7rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
     .contact__OuterContainer{
         flex-direction: row;
@@ -31,10 +30,11 @@
     }
 
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
     .contact__OuterContainer {
         flex-direction: column-reverse;
+        gap: 1rem;
     }
 
     .contact__MapContainer .contact__InfoContainer{

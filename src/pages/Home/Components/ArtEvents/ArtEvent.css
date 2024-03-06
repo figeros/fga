@@ -1,0 +1,21 @@
+.artEvent__Container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.artEvent__Image{
+    width: 100%;
+    border: 5px solid white;
+    border-radius: 1.8rem;
+    display: block;
+    margin-bottom: 3rem;
+    object-fit: cover;
+}
+
+.artEvent__Title{
+    text-align: center;
+    width: 75%;
+    font-size: 20px;
+}

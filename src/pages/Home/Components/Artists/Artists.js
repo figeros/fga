@@ -7,9 +7,9 @@ import "./Artists.css";
 const Artists = props =>{
 
     return(
-        <div className="artistsContainer">
-            <p className='artistsTitle'>SANATÇILAR</p>
-            <div className="innerArtistContainer">
+        <div className="outerArtists__Container">
+            <p className='artists__Title'>SANATÇILAR</p>
+            <div className="innerArtists__Container">
                 <Artist />
                 <Artist />
             </div>

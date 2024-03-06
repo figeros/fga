@@ -3,7 +3,9 @@ import { Image, Row, Col, Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { useTranslation } from "react-i18next";
 
+import ArtPieces from "./Components/ArtPieces/ArtPieces";
 import Artists from "./Components/Artists/Artists";
+import ArtEvents from "./Components/ArtEvents/ArtEvents";
 import Contact from "./Components/Contact/Contact";
 
 const Home = () => {
@@ -17,8 +19,9 @@ const Home = () => {
       </Helmet>
 
       <Container fluid className="homePageComponent">
-        <p>home</p>
+        <ArtPieces/>
         <Artists/>
+        <ArtEvents/>
         <Contact/>
       </Container>
     </>

@@ -1,11 +1,12 @@
-.artistsTitle {
+.artists__Title {
     padding-bottom: 2rem;
     width: 100%;
     text-align: right;
     color: white;
+    font-size: 30px;
 }
 
-.innerArtistContainer{
+.innerArtists__Container{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,13 +14,17 @@
 }
 
 @media screen and (max-width: 768px) {
-    .innerArtistContainer{
+    .innerArtists__Container{
         flex-direction: column;
     }
 }
 @media screen and (min-width: 768px) {
-    .innerArtistContainers{
+    .innerArtists__Containers{
         flex-direction: row;
     }
+}
+
+.outerArtists__Container{
+    padding-bottom: 10%;
 }
 
