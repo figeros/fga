@@ -1,9 +1,9 @@
-.outerArtEvents__Container{
+.artEvents__OuterContainer{
     width: 100%;
     padding-bottom: 15% !important; 
 }
 
-.innerArtEvents__Container{
+.artEvents__InnerContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

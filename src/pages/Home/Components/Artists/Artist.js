@@ -20,15 +20,15 @@ const Artist = props =>{
             </div>
         </div>*/
 
-        <div className="artistOuterContainer">
-            <div className="artistInfo">
-                <div className="nameBox">AHMET MEHMET</div>
+        <div className="artist__OuterContainer">
+            <div className="artist__Info">
+                <div className="artist__Name">AHMET MEHMET</div>
                 <p>RESSAM</p>
                 <p>1977</p>
                 <p>BURSA</p>
                 <p>SÜRREAL ÇİZİMLER ÜZERİNE ÇALIŞIYOR</p>
             </div>
-            <div className="artistImg">
+            <div className="artist__Img">
                 <img src={require("../../../../assets/images/artistImage.svg").default}/>
             </div>
         </div>

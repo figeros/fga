@@ -18,9 +18,9 @@ const  ArtEvents = () => {
     ]
 
     return(
-        <div className="outerArtEvents__Container">
+        <div className="artEvents__OuterContainer">
             <p className="artEvents__Title">ETKİNLİKLER</p>
-            <div className="innerArtEvents__Container">
+            <div className="artEvents__InnerContainer">
 
                 {artEventsList.map((artEvent,index) => {
                     return <ArtEvent key={index} img={artEvent.img} title={artEvent.title}/>

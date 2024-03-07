@@ -14,7 +14,7 @@ const Master = () => {
     <>
       <Container fluid className="outerContainer">
       <Header/>
-        <Container className="innerContainer">
+        <Container fluid className="innerContainer">
           {/* Content Area With Outlet */}
           <Outlet />
 
