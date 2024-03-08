@@ -4,7 +4,7 @@ import "../../assets/css/style.css";
 import Cookies from "universal-cookie";
 import { useTranslation } from "react-i18next";
 import { Outlet } from "react-router-dom";
-import Header from "./Header";
+import Header from "./Header/Header";
 
 const Master = () => {
   const { t } = useTranslation();

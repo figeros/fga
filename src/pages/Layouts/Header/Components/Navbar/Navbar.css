@@ -1,0 +1,47 @@
+
+nav{
+    padding: 7% 0 0 11%;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header__navbarDrawerBtn{
+    display: none;
+    height: 10px;
+}
+
+.navbar__HeaderNavlinks{
+    display: block;
+}
+
+.logo{
+    object-fit: contain;
+    width: 31vw;
+}
+
+
+@media screen and (max-width: 768px){
+
+    nav{
+        width: 65%;
+        top: 3%;
+        left: 6%;
+    }
+
+    .navbar__navbarDrawerBtn{
+        display: block;    
+    }
+
+    .navbar__HeaderNavlinks{
+        display: none;
+    }
+
+    .logo{
+        width: 65%;
+    }
+    
+}
+

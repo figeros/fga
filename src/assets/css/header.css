@@ -1,14 +1,12 @@
 header{
-    background-image: url("../images/bg/bg_navbar.svg");
-    background-position: center top;
-    background-size: contain;
-    background-repeat: no-repeat;
-    aspect-ratio: 1.50;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
     width: 100%;
-
     margin-left: auto;
     margin-right: auto;
     color: white;
+    display: flex;
 }
 
 p{
@@ -16,19 +14,9 @@ p{
     color: white;
 }
 
-.logo{
-    position: absolute;
-    top: 7%;
-    left: 11%;
+.bg{
     object-fit: contain;
-    width: 31%;
-}
-
-@media screen and (max-width: 768px){
-
-    .logo{
-        width: 65%;
-        top: 3%;
-        left: 6%;
-    }
+    position: absolute;
+    width: 100%;
+    z-index: -1; pointer-events: none;
 }

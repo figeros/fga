@@ -1,0 +1,12 @@
+.navlinks__uList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+  }
+
+  .navlinks__uList li {
+    margin: 0 0.5rem;
+    color: white;
+  }
