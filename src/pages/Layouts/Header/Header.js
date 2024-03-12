@@ -9,8 +9,8 @@ import bg from "../../../assets/images/bg/bg_navbar.svg"
 const Header = () =>{
     return(
         <header>
+                <img className="bg" src={bg} alt=""/>
                 <Navbar/>
-                <image className="bg" src={bg}/>
         </header>
     )
 }

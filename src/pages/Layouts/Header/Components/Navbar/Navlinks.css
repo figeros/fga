@@ -2,11 +2,22 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
   }
 
   .navlinks__uList li {
     margin: 0 0.5rem;
+    color: white !important;
+  }
+
+  .navlink {
     color: white;
+    text-decoration: none;
+  }
+
+  .navlink a.active{
+    color: white;
+    text-decoration: none;
   }

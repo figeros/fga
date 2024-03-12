@@ -15,11 +15,15 @@ const Navbar = () =>{
         <div className="navbar__HeaderNavlinks">
             <Navlinks/>
         </div>
-        <button navbar__DrawerBtn>
-            <img src= {require("../../../../../assets/images/icons/home_icon.png")}/>
+        <button className="navbar__DrawerBtn">
+            <div></div>
+            <div></div>
+            <div></div>
         </button>
     </nav>
     )
+
+     
 }
 
 export default Navbar

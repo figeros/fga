@@ -1,5 +1,4 @@
 header{
-    display: inline-block;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -15,8 +14,7 @@ p{
 }
 
 .bg{
-    object-fit: contain;
-    position: absolute;
     width: 100%;
-    z-index: -1; pointer-events: none;
+    height: 100%;
+    object-fit: cover;
 }

@@ -8,10 +8,10 @@ const Navlinks = () => {
 
     return(
             <ul className="navlinks__uList">
-                <li><NavLink>ESERLER</NavLink></li>
-                <li><NavLink>ANATÇILAR</NavLink></li>
-                <li><NavLink>ETKİNLİKLER</NavLink></li>
-                <li><NavLink>İLETİŞİM</NavLink></li>
+                <li><NavLink className="navlink">ESERLER</NavLink></li>
+                <li><NavLink className="navlink">SANATÇILAR</NavLink></li>
+                <li><NavLink className="navlink">ETKİNLİKLER</NavLink></li>
+                <li><NavLink className="navlink">İLETİŞİM</NavLink></li>
             </ul>
     )
 
