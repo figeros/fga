@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: flex-end;
     width: 100%;
+    align-items: center;
   }
 
   .navlinks__uList li {
@@ -20,4 +21,17 @@
   .navlink a.active{
     color: white;
     text-decoration: none;
+  }
+
+  @media screen and  (max-width: 768px){
+
+    .navlinks__uList{
+      flex-direction: column;
+      padding-top: 10vw;
+    }
+
+    .navlinks__uList li{
+      margin-top: 2vw;
+    }
+    
   }

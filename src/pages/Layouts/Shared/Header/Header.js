@@ -2,9 +2,9 @@ import React from "react";
 
 import Navbar from "./Components/Navbar/Navbar";
 
-import "../../../assets/css/header.css";
+import "../../../../assets/css/header.css";
 
-import bg from "../../../assets/images/bg/bg_navbar.svg"
+import bg from "../../../../assets/images/bg/bg_navbar.svg"
 
 const Header = () =>{
     return(
